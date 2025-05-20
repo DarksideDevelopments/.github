@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DarksideDevelopments/.github/main/profile/darkside-header.jpg" alt="Darkside Developments Header" width="440" height="60" />
+  <img src="https://raw.githubusercontent.com/DarksideDevelopments/.github/main/profile/darkside-header.jpg" alt="Darkside Developments Header" width="100%" />
 </p>
 
 # Darkside Developments
