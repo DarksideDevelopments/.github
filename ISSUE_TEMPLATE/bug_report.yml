@@ -1,0 +1,39 @@
+name: Bug Report
+description: Repprt a bug or unexpected behavior
+title: "[BUG] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide detailed steps to reproduce the issue.
+  - type: input
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Describe the issue
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: 1. Go to... 2. Click on...
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: e.g. Tablet (Portrait), Laptop etc.
+  - type: dropdown
+    id: related-repo
+      attributes:
+        label: Affected App/Repo
+        description: Which app is this bug related to?
+        options:
+          - CRM Frontend
+          - CRM Backend
+          - Booking Engine
+          - Remote Tuning Portal
+          - Website
+      validations:
+        required: true
